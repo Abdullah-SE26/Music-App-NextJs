@@ -1,5 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import InstructorSection from "@/components/InstructorSection";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -13,6 +15,8 @@ const Home = () => {
             <WhyChooseUs/>
             <TestimonialCards/>
             <UpcomingWebinars/>
+            <InstructorSection/>
+            <Footer/>
 
         </main>
 
