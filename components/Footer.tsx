@@ -1,3 +1,5 @@
+import { FaFacebook, FaXTwitter, FaInstagram } from "react-icons/fa6";
+
 function Footer() {
   return (
     <footer className="bg-black text-gray-400 py-12">
@@ -49,36 +51,36 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <div className="flex space-x-4">
+          <div className="flex flex-col space-y-4 ">
             <a
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
-              Facebook
+              <FaFacebook size={25}/>
             </a>
             <a
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
-              Twitter
+              <FaXTwitter size={25}/>
             </a>
             <a
               href="#"
               className="hover:text-white transition-colors duration-300"
             >
-              Instagram
+              <FaInstagram size={25}/>
             </a>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
+          <p>Al-AIN, UAE</p>
+          <p>REMAH 10001</p>
           <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Phone: +971 12345678</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2025 Music School. All rights reserved.</p>
     </footer>
   )
 }

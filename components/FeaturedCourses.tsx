@@ -2,7 +2,7 @@
 import Link from "next/link"
 import courseData from "../data/music-courses.json"
 import { BackgroundGradient } from "./ui/background-gradient"
-import { Button } from "./ui/moving-border";
+
 
 
 //making our own course data type called Course
@@ -42,12 +42,9 @@ function FeaturedCourses() {
                                 <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                                 
                                 <Link href={`/courses/${course.slug}`} className="mt-2.5">
-                                    <Button
-                                    borderRadius="4rem"
-                                    className="bg-white cursor-pointer  dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >
+                                    <button className=" py-2 px-3 hover:bg-gray-700 rounded-4xl bg-white cursor-pointer  dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800">
                                     Learn More
-                                    </Button>
+                                    </button>
                                     </Link>
                             </div>
                         </BackgroundGradient>
