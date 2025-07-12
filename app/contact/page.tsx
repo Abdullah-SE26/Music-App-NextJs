@@ -5,8 +5,8 @@ const ContactPage = () => {
     <BackgroundBeamsWithCollision className="relative min-h-screen w-full bg-[#111111] text-white overflow-hidden">
 
       {/* Centered Contact Box */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen px-4 py-12">
-        <div className="bg-black/70 backdrop-blur-md rounded-2xl p-8 shadow-xl max-w-3xl w-full border border-white/10">
+      <div className="relative z-10 flex items-center justify-center min-h-screen  px-4 py-12">
+        <div className="bg-black/0 backdrop-blur-sm  rounded-2xl p-8 shadow-xl mt-25 max-w-3xl w-full border border-white/10">
           <h1 className="text-4xl font-bold mb-4 text-[#ecdf8c]">
             Contact Us 🎶
           </h1>
